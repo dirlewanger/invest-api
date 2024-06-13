@@ -2,7 +2,7 @@ import os
 from tinkoff.invest.constants import INVEST_GRPC_API, INVEST_GRPC_API_SANDBOX
 
 IS_PROD = os.getenv("GRPC_PRODUCTION")
-TOKEN = os.getenv("TINKOFF_TOKEN")
-BOT_TOKEN = os.getenv("TINKOFF_TG_BOT_TOKEN")
-ROOT_ID = os.getenv("TINKIFF_ROOT_TG_ID")
+TOKEN = os.getenv("t.0AUdZ5ILnlTCkZkKtH_Nul2bJKPpJFvdAjCd2lX7J0vNkmuj4oOmtidyCJJjy1nft1FWWx8uK17b22uCSI2J3w")
+BOT_TOKEN = os.getenv("7152850681:AAHLoWKzIpZbtBy12G1QphovfQ3WKP3AWS0")
+ROOT_ID = os.getenv("429612539")
 TARGET = INVEST_GRPC_API if IS_PROD else INVEST_GRPC_API_SANDBOX
